@@ -1,0 +1,16 @@
+Q4 QUANTUM PROCESSING UNIT (QPU)
+
+Technology: Superconducting transmon qubits, flip-chip packaging.
+Qubit count: 128 physical qubits (scalable to 1024).
+Gate fidelity: >99.9% single-qubit, >99.5% two-qubit.
+Control system: Cryo-CMOS waveform generators at 4 K stage.
+Interface: FPGA-based Quantum Translator with zero-copy DMA
+           over PCIe Gen6 (128 GB/s).
+Software stack: Qiskit backend provider, OpenQASM 3.0 support.
+
+Use cases: Quantum chemistry, QUBO optimization, Shor/Grover
+           algorithms, variational quantum eigensolvers.
+
+Note: The QPU is designed to be co-packaged with an AnalogX1000
+      chiplet via the photonic interconnect for hybrid quantum-
+      classical workloads.

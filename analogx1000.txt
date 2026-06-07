@@ -1,0 +1,17 @@
+ANALOGX1000 MEMRISTOR CROSSBAR
+
+Function: Analog in-memory compute for neural network inference.
+Architecture: 1024×1024 resistive RAM (ReRAM) crossbar array.
+Precision: 8-bit analog weights; on-chip 10-bit ADC per column.
+Performance: 1.2 TOPS/W at 0.5 W per tile.
+Process node: 7nm FinFET (compatible with 5nm shrink).
+Die area: 12 mm².
+Use cases: Edge AI acceleration, real-time sensor processing,
+           low-power computer vision, smartphone neural engines.
+
+Key features:
+- No external DRAM access during inference (weights stored in situ).
+- Differential read scheme for common-mode noise rejection.
+- On-chip calibration loop compensates for conductance drift.
+
+Derivative for phones: Scaled 512×512 tile (Eon-X Neural Engine).

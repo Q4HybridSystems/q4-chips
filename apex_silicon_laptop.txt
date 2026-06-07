@@ -1,0 +1,17 @@
+APEX SILICON LAPTOP/DESKTOP PROCESSOR
+
+CPU: 12-core hybrid (8 RISC-V performance + 4 ARM Cortex efficiency)
+     at 3.2 GHz.
+ISA: RV64GCB + ARMv9-A (no TrustZone, user-controlled EL3).
+AI Accelerator: Full 1024×1024 AnalogX1000 tile, 200 TOPS (INT8).
+GPU: Discrete interface via photonic fabric, 10 TFLOPS (FP32).
+Memory: DDR5 + on-package HBM3, 512 GB/s aggregate bandwidth.
+Quantum Interface: Native Qiskit execution engine; can directly
+                   control Q4 QPU over PCIe/Photonic link.
+TDP: 35 W (laptop), 95 W (desktop).
+Process: 5 nm.
+
+Backdoor resistance:
+- All privilege levels are documented and user-auditable.
+- PiShield monitors all DMA transactions and IOMMU mappings in real time.
+- Firmware is open-source (coreboot/LinuxBoot) signed by user keys.

@@ -1,0 +1,16 @@
+EON-X PHONE SYSTEM-ON-CHIP
+
+CPU: 8-core RISC-V (4× performance, 4× efficiency) at 2.8 GHz.
+ISA: RV64GCB (Bitmanip extension for cryptography).
+Neural Engine: 512×512 AnalogX1000 derivative, 15 TOPS (INT8).
+GPU: Custom RISC-V vector processor, 2 TFLOPS (FP16).
+Modem interface: Integrated photonic link, 50 Gbps to RF front-end.
+Security: PiShield Root-of-Trust with physically unclonable function
+          (PUF) for unique device identity.
+Memory: LPDDR5X controller, 128-bit width.
+Process: 5 nm.
+
+Backdoor resistance:
+- No proprietary management engine (Intel ME / ARM TrustZone free).
+- All microcode is open-source and auditable.
+- Boot ROM is immutable and verified by PiShield hash before execution.

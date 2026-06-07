@@ -1,0 +1,19 @@
+PHOTONIC INTERCONNECT (SiPh)
+
+Technology: Silicon-on-insulator photonics, 300 mm wafer.
+Wavelength division multiplexing: 4 channels per fiber (CWDM4).
+Bandwidth: 100 Gbps per channel (400 Gbps aggregate).
+Latency: <1 ns per hop (on-package), <10 ns chip-to-chip.
+Energy efficiency: <2 pJ/bit.
+Modulators: Micro-ring resonators with integrated heaters.
+Photodetectors: Germanium waveguide-integrated photodiodes.
+
+Applications:
+- CPU-to-AI-accelerator link (Apex Silicon).
+- Modem-to-processor interconnect (Eon-X phone).
+- Disaggregated data center fabric.
+
+Backdoor resistance: All optical paths are passive; no data
+                     can be intercepted without physically
+                     tapping the waveguide, which is monitored
+                     by PiShield on-chip integrity sensors.
